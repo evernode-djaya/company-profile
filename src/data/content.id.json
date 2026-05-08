@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "langLabel": "ID",
+    "altLabel": "EN"
+  },
+  "nav": {
+    "items": [
+      { "id": "services", "label": "Layanan" },
+      { "id": "work", "label": "Karya" },
+      { "id": "process", "label": "Proses" },
+      { "id": "team", "label": "Tim" },
+      { "id": "clients", "label": "Klien" }
+    ],
+    "cta": "Mulai proyek"
+  },
+  "hero": {
+    "eyebrow": "EVERNODE / SEJAK 2025 · JAKARTA",
+    "title1": "Sistem terancang",
+    "title2": "untuk para operator",
+    "title3": "yang membangun masa depan.",
+    "body": "EverNode adalah studio perangkat lunak yang menanamkan kecerdasan ke dalam operasi perusahaan — perangkat lunak kustom, agen AI, serta infrastruktur data yang menghubungkan keduanya.",
+    "primary": "Lihat karya kami",
+    "secondary": "Apa yang kami kerjakan",
+    "stats": [
+      { "k": "50", "suf": "+", "l": "Sistem dirilis" },
+      { "k": "1", "suf": "thn", "l": "Tahun bertumbuh" },
+      { "k": "3", "suf": "", "l": "Insinyur, senior saja" }
+    ]
+  },
+  "marquee": [
+    "Perangkat Lunak Kustom",
+    "Agen AI",
+    "Document Intelligence",
+    "Pipeline Data",
+    "DevOps & Cloud",
+    "Rekayasa Mobile",
+    "Sistem RAG",
+    "Computer Vision",
+    "Integrasi Enterprise"
+  ],
+  "services": {
+    "eyebrow": "01 / Layanan",
+    "version": "v.2026.05",
+    "title1": "Dua praktik.",
+    "title2": "Satu sistem operasi untuk operasional Anda.",
+    "items": [
+      {
+        "n": "01",
+        "t": "Pengembangan Perangkat Lunak Kustom",
+        "c": "BUILD",
+        "d": "Pengembangan dari nol, modernisasi sistem lama, dan rollout white-glove. Kami rilis, latih tim Anda, dan bertahan untuk jangka panjang.",
+        "tags": ["Web", "Mobile", "Cloud", "Dukungan"],
+        "details": [
+          "Platform web dan konsol admin",
+          "Mobile (iOS · Android · cross-platform)",
+          "Sistem backend dan integrasi",
+          "Infrastruktur cloud & DevOps"
+        ]
+      },
+      {
+        "n": "02",
+        "t": "AI & Data Intelligence",
+        "c": "AI",
+        "d": "Agen kustom, document intelligence, dan analitik di atas data Anda. Model yang kami layani sendiri, bukan yang kami sewa.",
+        "tags": ["Agen", "RAG", "Visi", "Analitik"],
+        "details": [
+          "Agen retrieval-augmented di atas korpus privat Anda",
+          "Pipeline document intelligence dan OCR",
+          "Computer vision dan analitik operasional",
+          "Self-hosted model serving dan observability"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "02 / Karya",
+    "title1": "Sistem terpilih",
+    "title2": "dirilis 2024 — 2026.",
+    "note": "// deskripsi proyek menyusul — slot placeholder di bawah",
+    "projects": [
+      {
+        "id": "001",
+        "title": "DoScreen",
+        "client": "[KLIEN]",
+        "year": "2025",
+        "tag": "Kesehatan · Skrining",
+        "variant": "analytics",
+        "desc": "[ DESKRIPSI ] — ringkasan singkat produk, apa yang dirilis, siapa penggunanya."
+      },
+      {
+        "id": "002",
+        "title": "TrustHRIS",
+        "client": "[KLIEN]",
+        "year": "2025",
+        "tag": "Sistem Informasi SDM",
+        "variant": "schedule",
+        "desc": "[ DESKRIPSI ] — penggajian, absensi, penjadwalan, dan operasional SDM."
+      },
+      {
+        "id": "003",
+        "title": "TrustMedis HIS",
+        "client": "[KLIEN]",
+        "year": "2025",
+        "tag": "Sistem Informasi Rumah Sakit",
+        "variant": "kanban",
+        "desc": "[ DESKRIPSI ] — alur klinis, EMR, dan operasional untuk rumah sakit."
+      },
+      {
+        "id": "004",
+        "title": "Mercator",
+        "client": "[KLIEN]",
+        "year": "2025",
+        "tag": "Geo · Operasi",
+        "variant": "map",
+        "desc": "[ DESKRIPSI ] — platform pemetaan dan operasi lapangan."
+      },
+      {
+        "id": "005",
+        "title": "BPR DKI · JakON",
+        "client": "Bank DKI",
+        "year": "2025",
+        "tag": "Perbankan · Onboarding",
+        "variant": "archive",
+        "desc": "[ DESKRIPSI ] — onboarding dan document intelligence untuk jaringan BPR."
+      },
+      {
+        "id": "006",
+        "title": "TBGuard",
+        "client": "US TBGuard",
+        "year": "2026",
+        "tag": "AI · Pengawasan Kesehatan",
+        "variant": "fleet",
+        "desc": "[ DESKRIPSI ] — skrining berbasis AI dan manajemen kasus tuberkulosis."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "03 / Proses",
+    "title1": "Dari sketsa ke produksi —",
+    "title2": "dalam ritme yang terukur.",
+    "steps": [
+      { "n": "01", "t": "Discovery", "d": "Kami menyatu dengan tim Anda selama dua minggu. Memetakan sistem, orang, dan kendalanya." },
+      { "n": "02", "t": "Arsitek", "d": "Prototipe yang berfungsi sebelum satu baris produksi. Keputusan dalam kode, bukan slide." },
+      { "n": "03", "t": "Bangun", "d": "Sprint dua mingguan. Demo setiap Jumat. Roadmap hidup di tempat kode hidup." },
+      { "n": "04", "t": "Operasikan", "d": "Kami tidak menghilang saat peluncuran. SLA, on-call, dan roadmap kuartal berikutnya." }
+    ]
+  },
+  "manifesto": {
+    "eyebrow": "04 / Keyakinan",
+    "body1": "Perangkat lunak adalah jaringan penghubung antara apa yang bisnis Anda ",
+    "em1": "lakukan",
+    "body2": " dan apa yang bisnis Anda ",
+    "em2": "ketahui",
+    "body3": ". Sebagian besar perusahaan hidup dengan jurang itu. Kami menutupnya.",
+    "pillars": [
+      { "t": "Bangun untuk operator", "d": "Perangkat lunak dinilai di terminal shift malam, bukan di slide ruang rapat." },
+      { "t": "Rilis, lalu pertajam", "d": "Sistem nyata di produksi mengalahkan enam bulan mockup, setiap saat." },
+      { "t": "Tetap bertanggung jawab", "d": "Kami tunjuk pemilik. Kami angkat telepon. Kami mengukur apa yang kami janjikan." }
+    ]
+  },
+  "team": {
+    "eyebrow": "05 / Studio",
+    "title1": "Tiga node.",
+    "title2": "Setiap sistem, dari hulu ke hilir.",
+    "blurb": "Tim senior kecil. Setiap peran dimiliki oleh satu orang, bertanggung jawab dari discovery hingga operasional.",
+    "coming": "// nama asli akan ditambahkan",
+    "members": [
+      {
+        "role": "Project Manager / Analis",
+        "initials": "PM",
+        "n": "01",
+        "scope": "Discovery, scoping, alignment pemangku kepentingan, roadmap & delivery."
+      },
+      {
+        "role": "Software Engineer",
+        "initials": "SE",
+        "n": "02",
+        "scope": "Sistem web, mobile, dan backend. Cloud dan DevOps. Pemilik produksi."
+      },
+      {
+        "role": "AI Engineer",
+        "initials": "AI",
+        "n": "03",
+        "scope": "Agen, RAG, document intelligence, visi, dan model serving."
+      }
+    ]
+  },
+  "clients": {
+    "eyebrow": "06 / Klien",
+    "label": "◆ DIPERCAYA OLEH ORGANISASI",
+    "title1": "Dua klien jangkar.",
+    "title2": "Daftar operator di belakangnya.",
+    "featured": [
+      { "name": "FK UNAIR", "sub": "Fakultas Kedokteran, Universitas Airlangga", "tag": "Pendidikan · Riset" },
+      { "name": "FK UMY", "sub": "Fakultas Kedokteran, Universitas Muhammadiyah Yogyakarta", "tag": "Pendidikan · Riset" }
+    ],
+    "othersLabel": "Juga bekerja dengan",
+    "others": ["US TBGuard", "ITB", "Bank DKI", "IHC"]
+  },
+  "cta": {
+    "eyebrow": "07 / Mulai",
+    "title1": "Mari bangun sesuatu",
+    "title2": "yang menjalankan bisnis Anda.",
+    "primary": "hello@evernode.id",
+    "secondary": "Jadwalkan obrolan 30 menit"
+  },
+  "footer": {
+    "blurb": "EverNode adalah brand dari PT Djaya Abadi Selamanya — studio perangkat lunak yang merancang sistem operasional untuk perusahaan Indonesia dan sekitarnya.",
+    "cols": [
+      { "h": "Praktik", "l": ["Perangkat Lunak Kustom", "AI & Data", "Implementasi"] },
+      { "h": "Studio", "l": ["Tentang", "Tim", "Kontak"] },
+      { "h": "Kontak", "l": ["hello@evernode.id", "Jakarta · Indonesia", "evernode.id"] }
+    ],
+    "copy1": "© 2026 PT DJAYA ABADI SELAMANYA · HAK CIPTA DILINDUNGI",
+    "copy2": "EVERNODE · BRAND DARI PT DJAYA ABADI SELAMANYA"
+  }
+}

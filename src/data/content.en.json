@@ -1,0 +1,313 @@
+{
+  "meta": {
+    "langLabel": "EN",
+    "altLabel": "ID"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "services",
+        "label": "Services"
+      },
+      {
+        "id": "work",
+        "label": "Work"
+      },
+      {
+        "id": "process",
+        "label": "Process"
+      },
+      {
+        "id": "team",
+        "label": "Team"
+      },
+      {
+        "id": "clients",
+        "label": "Clients"
+      }
+    ],
+    "cta": "Start a project"
+  },
+  "hero": {
+    "eyebrow": "EVERNODE / EST. 2025 · JAKARTA",
+    "title1": "Engineered systems",
+    "title2": "for the operators",
+    "title3": "building tomorrow.",
+    "body": "EverNode is a software studio embedding intelligence into enterprise operations — custom software and AI agents, with the data infrastructure that connects them.",
+    "primary": "See our work",
+    "secondary": "What we do",
+    "stats": [
+      {
+        "k": "50",
+        "suf": "+",
+        "l": "Systems shipped"
+      },
+      {
+        "k": "1",
+        "suf": "yr",
+        "l": "Year compounding"
+      },
+      {
+        "k": "3",
+        "suf": "",
+        "l": "Engineers, senior only"
+      }
+    ]
+  },
+  "marquee": [
+    "Custom Software",
+    "AI Agents",
+    "Document Intelligence",
+    "Data Pipelines",
+    "DevOps & Cloud",
+    "Mobile Engineering",
+    "RAG Systems",
+    "Computer Vision",
+    "Enterprise Integration"
+  ],
+  "services": {
+    "eyebrow": "01 / Services",
+    "version": "v.2026.05",
+    "title1": "Two practices.",
+    "title2": "One operating system for your operations.",
+    "items": [
+      {
+        "n": "01",
+        "t": "Custom Software Development",
+        "c": "BUILD",
+        "d": "Greenfield builds, legacy modernization, and white-glove rollouts. We ship, train your team, and stay on for the long haul.",
+        "tags": [
+          "Web",
+          "Mobile",
+          "Cloud",
+          "Support"
+        ],
+        "details": [
+          "Web platforms and admin consoles",
+          "Mobile (iOS · Android · cross-platform)",
+          "Backend systems and integrations",
+          "Cloud infrastructure & DevOps"
+        ]
+      },
+      {
+        "n": "02",
+        "t": "AI & Data Intelligence",
+        "c": "AI",
+        "d": "Custom agents, document intelligence, and analytics built on your data. Models we serve, not models we rent.",
+        "tags": [
+          "Agents",
+          "RAG",
+          "Vision",
+          "Analytics"
+        ],
+        "details": [
+          "Retrieval-augmented agents on your private corpus",
+          "Document intelligence and OCR pipelines",
+          "Computer vision and operational analytics",
+          "Self-hosted model serving and observability"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "02 / Work",
+    "title1": "Selected systems",
+    "title2": "shipped 2024 — 2026.",
+    "note": "// project descriptions to be filled — placeholder slots below",
+    "projects": [
+      {
+        "id": "001",
+        "title": "DoScreen",
+        "client": "[CLIENT]",
+        "year": "2025",
+        "tag": "Health · Screening",
+        "variant": "analytics",
+        "desc": "[ DESCRIPTION ] — short product summary, what it ships, who uses it."
+      },
+      {
+        "id": "002",
+        "title": "TrustHRIS",
+        "client": "[CLIENT]",
+        "year": "2025",
+        "tag": "HR Information System",
+        "variant": "schedule",
+        "desc": "[ DESCRIPTION ] — payroll, attendance, scheduling and people ops."
+      },
+      {
+        "id": "003",
+        "title": "TrustMedis HIS",
+        "client": "[CLIENT]",
+        "year": "2025",
+        "tag": "Hospital Information System",
+        "variant": "kanban",
+        "desc": "[ DESCRIPTION ] — clinical workflow, EMR and operations for hospitals."
+      },
+      {
+        "id": "004",
+        "title": "Mercator",
+        "client": "[CLIENT]",
+        "year": "2025",
+        "tag": "Geo · Operations",
+        "variant": "map",
+        "desc": "[ DESCRIPTION ] — mapping and field operations platform."
+      },
+      {
+        "id": "005",
+        "title": "BPR DKI · JakON",
+        "client": "Bank DKI",
+        "year": "2025",
+        "tag": "Banking · Onboarding",
+        "variant": "archive",
+        "desc": "[ DESCRIPTION ] — onboarding and document intelligence for BPR network."
+      },
+      {
+        "id": "006",
+        "title": "TBGuard",
+        "client": "US TBGuard",
+        "year": "2026",
+        "tag": "AI · Health Surveillance",
+        "variant": "fleet",
+        "desc": "[ DESCRIPTION ] — AI-assisted screening and case management for tuberculosis."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "03 / Process",
+    "title1": "From sketch to production —",
+    "title2": "in measured beats.",
+    "steps": [
+      {
+        "n": "01",
+        "t": "Discovery",
+        "d": "We embed with your team for two weeks. Map the systems, the people, the friction."
+      },
+      {
+        "n": "02",
+        "t": "Architect",
+        "d": "A working prototype before a single production line. Decisions in code, not in slides."
+      },
+      {
+        "n": "03",
+        "t": "Build",
+        "d": "Two-week sprints. Demos every Friday. The roadmap lives where the code lives."
+      },
+      {
+        "n": "04",
+        "t": "Operate",
+        "d": "We don't disappear at launch. SLAs, on-call, and the next quarter's roadmap."
+      }
+    ]
+  },
+  "manifesto": {
+    "eyebrow": "04 / Belief",
+    "body1": "Software is the connective tissue between what your business ",
+    "em1": "does",
+    "body2": " and what your business ",
+    "em2": "knows",
+    "body3": ". Most enterprises live with the gap. We close it.",
+    "pillars": [
+      {
+        "t": "Build for operators",
+        "d": "Software is judged at the night-shift terminal, not the boardroom slide."
+      },
+      {
+        "t": "Ship, then sharpen",
+        "d": "A real system in production beats six months of mockups, every time."
+      },
+      {
+        "t": "Stay accountable",
+        "d": "We name an owner. We pick up the phone. We measure what we said we would."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "05 / Studio",
+    "title1": "Three nodes.",
+    "title2": "Every system, end to end.",
+    "blurb": "A small senior team. Each role owned by one person, accountable from discovery to operations.",
+    "coming": "// real names to be added",
+    "members": [
+      {
+        "role": "Project Manager / Analyst",
+        "initials": "PM",
+        "n": "01",
+        "scope": "Discovery, scoping, stakeholder alignment, roadmap & delivery."
+      },
+      {
+        "role": "Software Engineer",
+        "initials": "SE",
+        "n": "02",
+        "scope": "Web, mobile and backend systems. Cloud and DevOps. Production owner."
+      },
+      {
+        "role": "AI Engineer",
+        "initials": "AI",
+        "n": "03",
+        "scope": "Agents, RAG, document intelligence, vision and model serving."
+      }
+    ]
+  },
+  "clients": {
+    "eyebrow": "06 / Clients",
+    "label": "◆ TRUSTED BY ORGANIZATIONS",
+    "title1": "Two anchor clients.",
+    "title2": "A roster of operators behind them.",
+    "featured": [
+      {
+        "name": "FK UNAIR",
+        "sub": "Faculty of Medicine, Universitas Airlangga",
+        "tag": "Education · Research"
+      },
+      {
+        "name": "FK UMY",
+        "sub": "Faculty of Medicine, Universitas Muhammadiyah Yogyakarta",
+        "tag": "Education · Research"
+      }
+    ],
+    "othersLabel": "Also working with",
+    "others": [
+      "US TBGuard",
+      "ITB",
+      "Bank DKI",
+      "IHC"
+    ]
+  },
+  "cta": {
+    "eyebrow": "07 / Begin",
+    "title1": "Let's build something",
+    "title2": "that runs your business.",
+    "primary": "hello@evernode.id",
+    "secondary": "Book a 30-min intro"
+  },
+  "footer": {
+    "blurb": "EverNode is a brand of PT Djaya Abadi Selamanya — a software studio engineering operational systems for Indonesian enterprises and beyond.",
+    "cols": [
+      {
+        "h": "Practice",
+        "l": [
+          "Custom Software",
+          "AI & Data",
+          "Implementation"
+        ]
+      },
+      {
+        "h": "Studio",
+        "l": [
+          "About",
+          "Team",
+          "Contact"
+        ]
+      },
+      {
+        "h": "Contact",
+        "l": [
+          "hello@evernode.id",
+          "Jakarta · Indonesia",
+          "evernode.id"
+        ]
+      }
+    ],
+    "copy1": "© 2026 PT DJAYA ABADI SELAMANYA · ALL RIGHTS RESERVED",
+    "copy2": "EVERNODE · A BRAND OF PT DJAYA ABADI SELAMANYA"
+  }
+}

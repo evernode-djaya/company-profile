@@ -1,0 +1,99 @@
+/* EverNode Design System — tokens */
+:root {
+  /* Foundations — neutral cool */
+  --en-bg-0: #07080A;          /* page */
+  --en-bg-1: #0C0E12;          /* surface */
+  --en-bg-2: #11141A;          /* raised */
+  --en-bg-3: #171B23;          /* hover */
+  --en-line: #1F242E;
+  --en-line-strong: #2A3140;
+
+  /* Foreground */
+  --en-fg-0: #F4F6FA;
+  --en-fg-1: #C7CCD6;
+  --en-fg-2: #8C93A1;
+  --en-fg-3: #5A6172;
+
+  /* Brand */
+  --en-accent: #7CC5FF;        /* signal blue */
+  --en-accent-2: #C7FF3D;      /* lime */
+  --en-accent-glow: rgba(124,197,255,0.35);
+  --en-accent-2-glow: rgba(199,255,61,0.35);
+
+  /* Status */
+  --en-ok: #3DDC97;
+  --en-warn: #FFB547;
+  --en-err: #FF6B6B;
+
+  /* Type */
+  --en-font-sans: "Space Grotesk", "Inter", system-ui, -apple-system, sans-serif;
+  --en-font-mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+  --en-font-display: "Space Grotesk", system-ui, sans-serif;
+
+  /* Radii */
+  --en-r-1: 4px;
+  --en-r-2: 8px;
+  --en-r-3: 12px;
+  --en-r-4: 18px;
+  --en-r-5: 28px;
+
+  /* Spacing scale */
+  --en-s-1: 4px;
+  --en-s-2: 8px;
+  --en-s-3: 12px;
+  --en-s-4: 16px;
+  --en-s-5: 24px;
+  --en-s-6: 32px;
+  --en-s-7: 48px;
+  --en-s-8: 64px;
+  --en-s-9: 96px;
+  --en-s-10: 128px;
+
+  /* Shadow */
+  --en-shadow-1: 0 1px 2px rgba(0,0,0,.4);
+  --en-shadow-2: 0 8px 24px rgba(0,0,0,.45);
+  --en-shadow-3: 0 24px 64px rgba(0,0,0,.55);
+  --en-glow: 0 0 0 1px rgba(124,197,255,.25), 0 0 24px var(--en-accent-glow);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--en-bg-0);
+  color: var(--en-fg-0);
+  font-family: var(--en-font-sans);
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; }
+
+::selection { background: var(--en-accent); color: #000; }
+
+/* Utilities used throughout */
+.en-mono { font-family: var(--en-font-mono); letter-spacing: 0.02em; }
+.en-eyebrow {
+  font-family: var(--en-font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--en-fg-2);
+}
+.en-grid-bg {
+  background-image:
+    linear-gradient(var(--en-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--en-line) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+.en-noise {
+  position: absolute; inset: 0; pointer-events: none; opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--en-bg-0); }
+::-webkit-scrollbar-thumb { background: var(--en-line-strong); border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: #3a4256; }
