@@ -29,7 +29,7 @@ export default function CTA() {
           <span style={{ fontStyle: 'italic', color: 'var(--en-accent)' }}>{t.cta.title2}</span>
         </h2>
         <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
-          <a href="mailto:hello@evernode.id" style={{
+          <a href="mailto:kevinashil@outlook.com" style={{
             padding: '18px 28px', borderRadius: 999,
             background: 'var(--en-fg-0)', color: '#000',
             fontWeight: 500, fontSize: 16, letterSpacing: '-0.01em',

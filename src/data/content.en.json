@@ -38,7 +38,7 @@
     "secondary": "What we do",
     "stats": [
       {
-        "k": "50",
+        "k": "10",
         "suf": "+",
         "l": "Systems shipped"
       },
@@ -276,7 +276,7 @@
     "eyebrow": "07 / Begin",
     "title1": "Let's build something",
     "title2": "that runs your business.",
-    "primary": "hello@evernode.id",
+    "primary": "kevinashil@outlook.com",
     "secondary": "Book a 30-min intro"
   },
   "footer": {
@@ -301,7 +301,7 @@
       {
         "h": "Contact",
         "l": [
-          "hello@evernode.id",
+          "kevinashil@outlook.com",
           "Jakarta · Indonesia",
           "evernode.id"
         ]

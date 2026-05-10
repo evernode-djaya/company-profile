@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useT } from '../../i18n/LangContext'
 import DashboardMock from '../primitives/DashboardMock'
+import Carousel from '../primitives/Carousel'
 import SectionHeader from './SectionHeader'
 import { Link } from '../../router/HashRouter'
 
@@ -24,9 +25,9 @@ export default function Work() {
           }
         />
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 16 }}>
+        <Carousel desktopGrid="repeat(3, 1fr)" gap={16} slideWidth="84%">
           {t.work.projects.map(p => <ProjectCard key={p.id} p={p} />)}
-        </div>
+        </Carousel>
       </div>
     </section>
   )

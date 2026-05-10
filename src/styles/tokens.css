@@ -97,3 +97,15 @@ button { font-family: inherit; }
 ::-webkit-scrollbar-track { background: var(--en-bg-0); }
 ::-webkit-scrollbar-thumb { background: var(--en-line-strong); border-radius: 8px; }
 ::-webkit-scrollbar-thumb:hover { background: #3a4256; }
+
+/* Carousel — hide native scrollbar (mobile only renders this) */
+.en-carousel::-webkit-scrollbar { display: none; }
+.en-carousel { -ms-overflow-style: none; }
+
+/* Mobile responsive overrides */
+@media (max-width: 720px) {
+  section { padding-left: 20px !important; padding-right: 20px !important; }
+  body[data-density="default"] section { padding-top: 72px !important; padding-bottom: 72px !important; }
+  body[data-density="compact"] section { padding-top: 56px !important; padding-bottom: 56px !important; }
+  body[data-density="spacious"] section { padding-top: 96px !important; padding-bottom: 96px !important; }
+}

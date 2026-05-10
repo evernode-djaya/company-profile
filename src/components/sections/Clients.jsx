@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useT } from '../../i18n/LangContext'
 import CornerFrame from '../primitives/CornerFrame'
+import Carousel from '../primitives/Carousel'
 import SectionHeader from './SectionHeader'
 
 export default function Clients() {
@@ -22,10 +23,10 @@ export default function Clients() {
           }
         />
 
-        <div style={{
-          display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 32,
-        }}>
-          {t.clients.featured.map((c, i) => <FeaturedClient key={i} c={c} index={i} />)}
+        <div style={{ marginBottom: 32 }}>
+          <Carousel desktopGrid="1fr 1fr" gap={16} slideWidth="86%">
+            {t.clients.featured.map((c, i) => <FeaturedClient key={i} c={c} index={i} />)}
+          </Carousel>
         </div>
 
         <div style={{

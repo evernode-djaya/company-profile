@@ -1,6 +1,7 @@
 import { useT } from '../../i18n/LangContext'
 import NodeNetwork from '../primitives/NodeNetwork'
 import Reticle from '../primitives/Reticle'
+import Carousel from '../primitives/Carousel'
 
 export default function Manifesto() {
   const { t } = useT()
@@ -31,17 +32,19 @@ export default function Manifesto() {
           <span style={{ color: 'var(--en-accent)', fontStyle: 'italic' }}>{t.manifesto.em2}</span>
           {t.manifesto.body3}
         </p>
-        <div style={{ marginTop: 64, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 32 }}>
-          {t.manifesto.pillars.map((p, i) => (
-            <div key={i} style={{ paddingTop: 24, borderTop: '1px solid var(--en-line)' }}>
-              <div className="en-mono" style={{ fontSize: 10, color: 'var(--en-fg-3)', marginBottom: 12 }}>0{i + 1}</div>
-              <h4 style={{
-                fontFamily: 'var(--en-font-display)', fontSize: 22, fontWeight: 500,
-                letterSpacing: '-0.01em', margin: '0 0 8px',
-              }}>{p.t}</h4>
-              <p style={{ margin: 0, color: 'var(--en-fg-2)', fontSize: 14, lineHeight: 1.6 }}>{p.d}</p>
-            </div>
-          ))}
+        <div style={{ marginTop: 64 }}>
+          <Carousel desktopGrid="repeat(3, 1fr)" gap={32} slideWidth="82%">
+            {t.manifesto.pillars.map((p, i) => (
+              <div key={i} style={{ paddingTop: 24, borderTop: '1px solid var(--en-line)' }}>
+                <div className="en-mono" style={{ fontSize: 10, color: 'var(--en-fg-3)', marginBottom: 12 }}>0{i + 1}</div>
+                <h4 style={{
+                  fontFamily: 'var(--en-font-display)', fontSize: 22, fontWeight: 500,
+                  letterSpacing: '-0.01em', margin: '0 0 8px',
+                }}>{p.t}</h4>
+                <p style={{ margin: 0, color: 'var(--en-fg-2)', fontSize: 14, lineHeight: 1.6 }}>{p.d}</p>
+              </div>
+            ))}
+          </Carousel>
         </div>
       </div>
     </section>

@@ -1,9 +1,11 @@
 import { useT } from '../../i18n/LangContext'
 import NodeNetwork from '../primitives/NodeNetwork'
 import Reticle from '../primitives/Reticle'
+import { useIsMobile } from '../../hooks/useIsMobile'
 
 export default function Hero() {
   const { t } = useT()
+  const isMobile = useIsMobile()
   return (
     <section data-screen-label="01 Hero" style={{
       position: 'relative', overflow: 'hidden',
@@ -71,18 +73,23 @@ export default function Hero() {
           </div>
 
           <div style={{
-            marginTop: 96, paddingTop: 24,
+            marginTop: isMobile ? 56 : 96, paddingTop: 24,
             borderTop: '1px solid var(--en-line)',
-            display: 'grid', gridTemplateColumns: `repeat(${t.hero.stats.length}, 1fr)`,
+            display: 'grid',
+            gridTemplateColumns: isMobile ? 'repeat(2, 1fr)' : `repeat(${t.hero.stats.length}, 1fr)`,
+            gap: isMobile ? '24px 16px' : 0,
           }}>
             {t.hero.stats.map((s, i) => (
               <div key={i} style={{
-                paddingRight: 24, paddingLeft: i === 0 ? 0 : 24,
-                borderLeft: i === 0 ? 'none' : '1px solid var(--en-line)',
+                paddingRight: isMobile ? 0 : 24,
+                paddingLeft: isMobile ? (i % 2 === 0 ? 0 : 16) : (i === 0 ? 0 : 24),
+                borderLeft: isMobile
+                  ? (i % 2 === 1 ? '1px solid var(--en-line)' : 'none')
+                  : (i === 0 ? 'none' : '1px solid var(--en-line)'),
               }}>
                 <div style={{
                   fontFamily: 'var(--en-font-display)',
-                  fontSize: 60, fontWeight: 500,
+                  fontSize: isMobile ? 40 : 60, fontWeight: 500,
                   letterSpacing: '-0.04em', lineHeight: 1,
                   color: i === 0 ? 'var(--en-accent)' : 'var(--en-fg-0)',
                 }}>{s.k}<span style={{ color: 'var(--en-fg-3)' }}>{s.suf}</span></div>

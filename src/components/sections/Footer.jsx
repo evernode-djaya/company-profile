@@ -1,16 +1,23 @@
 import { useT } from '../../i18n/LangContext'
 import { ENLogo } from '../Logo'
+import { useIsMobile } from '../../hooks/useIsMobile'
 
 export default function Footer() {
   const { t } = useT()
+  const isMobile = useIsMobile()
   return (
     <footer style={{
       padding: '64px 32px 32px', borderTop: '1px solid var(--en-line)',
       background: 'var(--en-bg-1)',
     }}>
       <div style={{ maxWidth: 1320, margin: '0 auto' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1fr', gap: 48, marginBottom: 64 }}>
-          <div>
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: isMobile ? '1fr 1fr' : '2fr 1fr 1fr 1fr',
+          gap: isMobile ? 32 : 48,
+          marginBottom: isMobile ? 48 : 64,
+        }}>
+          <div style={{ gridColumn: isMobile ? '1 / -1' : 'auto' }}>
             <ENLogo size={20} />
             <p style={{
               maxWidth: 380, marginTop: 24, color: 'var(--en-fg-2)',

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useT } from '../../i18n/LangContext'
 import CornerFrame from '../primitives/CornerFrame'
+import Carousel from '../primitives/Carousel'
 import SectionHeader from './SectionHeader'
 
 export default function Team() {
@@ -23,9 +24,9 @@ export default function Team() {
           }
         />
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 16 }}>
+        <Carousel desktopGrid="repeat(3, 1fr)" gap={16} slideWidth="82%">
           {t.team.members.map((m, i) => <TeamCard key={i} m={m} />)}
-        </div>
+        </Carousel>
       </div>
     </section>
   )

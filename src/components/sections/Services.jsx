@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useT } from '../../i18n/LangContext'
 import CornerFrame from '../primitives/CornerFrame'
+import Carousel from '../primitives/Carousel'
 import SectionHeader from './SectionHeader'
 
 export default function Services() {
@@ -21,13 +22,11 @@ export default function Services() {
           }
         />
 
-        <div style={{
-          display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16,
-        }}>
+        <Carousel desktopGrid="1fr 1fr" gap={16} slideWidth="86%">
           {t.services.items.map((s, i) => (
             <ServiceCard key={i} s={s} index={i} />
           ))}
-        </div>
+        </Carousel>
       </div>
     </section>
   )

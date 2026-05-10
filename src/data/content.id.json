@@ -22,7 +22,7 @@
     "primary": "Lihat karya kami",
     "secondary": "Apa yang kami kerjakan",
     "stats": [
-      { "k": "50", "suf": "+", "l": "Sistem dirilis" },
+      { "k": "10", "suf": "+", "l": "Sistem dirilis" },
       { "k": "1", "suf": "thn", "l": "Tahun bertumbuh" },
       { "k": "3", "suf": "", "l": "Insinyur, senior saja" }
     ]
@@ -201,7 +201,7 @@
     "eyebrow": "07 / Mulai",
     "title1": "Mari bangun sesuatu",
     "title2": "yang menjalankan bisnis Anda.",
-    "primary": "hello@evernode.id",
+    "primary": "kevinashil@outlook.com",
     "secondary": "Jadwalkan obrolan 30 menit"
   },
   "footer": {
@@ -209,7 +209,7 @@
     "cols": [
       { "h": "Praktik", "l": ["Perangkat Lunak Kustom", "AI & Data", "Implementasi"] },
       { "h": "Studio", "l": ["Tentang", "Tim", "Kontak"] },
-      { "h": "Kontak", "l": ["hello@evernode.id", "Jakarta · Indonesia", "evernode.id"] }
+      { "h": "Kontak", "l": ["kevinashil@outlook.com", "Jakarta · Indonesia", "evernode.id"] }
     ],
     "copy1": "© 2026 PT DJAYA ABADI SELAMANYA · HAK CIPTA DILINDUNGI",
     "copy2": "EVERNODE · BRAND DARI PT DJAYA ABADI SELAMANYA"
