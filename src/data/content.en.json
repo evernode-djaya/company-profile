@@ -87,7 +87,8 @@
           "Mobile (iOS · Android · cross-platform)",
           "Backend systems and integrations",
           "Cloud infrastructure & DevOps"
-        ]
+        ],
+        "icon": ""
       },
       {
         "n": "02",
@@ -105,7 +106,8 @@
           "Document intelligence and OCR pipelines",
           "Computer vision and operational analytics",
           "Self-hosted model serving and observability"
-        ]
+        ],
+        "icon": ""
       }
     ]
   },
@@ -122,7 +124,10 @@
         "year": "2025",
         "tag": "Health · Screening",
         "variant": "analytics",
-        "desc": "[ DESCRIPTION ] — short product summary, what it ships, who uses it."
+        "desc": "[ DESCRIPTION ] — short product summary, what it ships, who uses it.",
+        "thumbnail": "",
+        "hero": "",
+        "gallery": []
       },
       {
         "id": "002",
@@ -131,7 +136,10 @@
         "year": "2025",
         "tag": "HR Information System",
         "variant": "schedule",
-        "desc": "[ DESCRIPTION ] — payroll, attendance, scheduling and people ops."
+        "desc": "[ DESCRIPTION ] — payroll, attendance, scheduling and people ops.",
+        "thumbnail": "",
+        "hero": "",
+        "gallery": []
       },
       {
         "id": "003",
@@ -140,7 +148,10 @@
         "year": "2025",
         "tag": "Hospital Information System",
         "variant": "kanban",
-        "desc": "[ DESCRIPTION ] — clinical workflow, EMR and operations for hospitals."
+        "desc": "[ DESCRIPTION ] — clinical workflow, EMR and operations for hospitals.",
+        "thumbnail": "",
+        "hero": "",
+        "gallery": []
       },
       {
         "id": "004",
@@ -149,7 +160,10 @@
         "year": "2025",
         "tag": "Geo · Operations",
         "variant": "map",
-        "desc": "[ DESCRIPTION ] — mapping and field operations platform."
+        "desc": "[ DESCRIPTION ] — mapping and field operations platform.",
+        "thumbnail": "",
+        "hero": "",
+        "gallery": []
       },
       {
         "id": "005",
@@ -158,7 +172,10 @@
         "year": "2025",
         "tag": "Banking · Onboarding",
         "variant": "archive",
-        "desc": "[ DESCRIPTION ] — onboarding and document intelligence for BPR network."
+        "desc": "[ DESCRIPTION ] — onboarding and document intelligence for BPR network.",
+        "thumbnail": "",
+        "hero": "",
+        "gallery": []
       },
       {
         "id": "006",
@@ -167,7 +184,10 @@
         "year": "2026",
         "tag": "AI · Health Surveillance",
         "variant": "fleet",
-        "desc": "[ DESCRIPTION ] — AI-assisted screening and case management for tuberculosis."
+        "desc": "[ DESCRIPTION ] — AI-assisted screening and case management for tuberculosis.",
+        "thumbnail": "",
+        "hero": "",
+        "gallery": []
       }
     ]
   },
@@ -232,14 +252,16 @@
         "role": "Project Manager / Analyst",
         "initials": "PM",
         "n": "01",
-        "scope": "Discovery, scoping, stakeholder alignment, roadmap & delivery."
+        "scope": "Discovery, scoping, stakeholder alignment, roadmap & delivery.",
+        "photo": ""
       },
       {
         "name": "Riandy Hasan",
         "role": "Software Engineer",
         "initials": "SE",
         "n": "02",
-        "scope": "Web, mobile and backend systems. Cloud and DevOps. Production owner."
+        "scope": "Web, mobile and backend systems. Cloud and DevOps. Production owner.",
+        "photo": ""
       },
       {
         "name": "M Risqi Firdaus",
@@ -247,7 +269,7 @@
         "initials": "AI",
         "n": "03",
         "scope": "Agents, RAG, document intelligence, vision and model serving.",
-        "photo": "/uploads/team/risqi.6971c14bd67c33ccf88a.png"
+        "photo": "/uploads/team/risqi.6971c14bd67c33ccf88a_1x1.png"
       }
     ]
   },
@@ -260,12 +282,14 @@
       {
         "name": "BANK JAKARTA",
         "sub": "Bank Jakarta formerly known as Bank DKI",
-        "tag": "Finance · Banking"
+        "tag": "Finance · Banking",
+        "logo": ""
       },
       {
         "name": "FK UMY",
         "sub": "Faculty of Medicine, Universitas Muhammadiyah Yogyakarta",
-        "tag": "Education · Research"
+        "tag": "Education · Research",
+        "logo": ""
       }
     ],
     "othersLabel": "Also working with",
