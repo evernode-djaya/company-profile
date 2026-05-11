@@ -228,18 +228,21 @@
     "coming": "// real names to be added",
     "members": [
       {
+        "name": "Kevin Ashil",
         "role": "Project Manager / Analyst",
         "initials": "PM",
         "n": "01",
         "scope": "Discovery, scoping, stakeholder alignment, roadmap & delivery."
       },
       {
+        "name": "Riandy Hasan",
         "role": "Software Engineer",
         "initials": "SE",
         "n": "02",
         "scope": "Web, mobile and backend systems. Cloud and DevOps. Production owner."
       },
       {
+        "name": "M Risqi Firdaus",
         "role": "AI Engineer",
         "initials": "AI",
         "n": "03",

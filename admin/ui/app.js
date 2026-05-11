@@ -107,6 +107,15 @@ async function refreshGitStatus() {
   }
 }
 
+function applySyncedResponse(r) {
+  const s = r && r.synced
+  if (!s || !s.lang || !s.content) return
+  if (state.dirty[s.lang]) return
+  state.content[s.lang] = s.content
+  state.mtime[s.lang] = s.mtime
+  if (state.lang === s.lang) renderEditor()
+}
+
 async function save() {
   if (state.saving) return
   state.saving = true
@@ -122,6 +131,7 @@ async function save() {
         })
         state.mtime[lang] = r.mtime
         state.dirty[lang] = false
+        applySyncedResponse(r)
       } catch (e) {
         if (e.status === 409) {
           const reload = confirm(
@@ -143,6 +153,7 @@ async function save() {
             })
             state.mtime[lang] = r.mtime
             state.dirty[lang] = false
+            applySyncedResponse(r)
           }
         } else {
           anyError = `${lang.toUpperCase()}: ${e.message}`
@@ -665,7 +676,7 @@ function fieldListObject({ values, label, shape, summaryKey, preview, onChange }
 }
 
 function renderShapeField(fieldDef, value, onChange) {
-  const lbl = fieldDef.label || fieldDef.key
+  const lbl = (fieldDef.label || fieldDef.key) + (fieldDef.shared ? ' · shared' : '')
   if (fieldDef.kind === 'text') return fieldText({ value, label: lbl, multiline: false, onChange })
   if (fieldDef.kind === 'textarea') return fieldText({ value, label: lbl, multiline: true, onChange })
   if (fieldDef.kind === 'list-string') return fieldListString({ values: value, label: lbl, onChange })

@@ -88,7 +88,7 @@ function TeamCard({ m }) {
         <div style={{
           fontFamily: 'var(--en-font-display)', fontSize: 22, fontWeight: 500,
           letterSpacing: '-0.02em', color: 'var(--en-fg-0)', marginBottom: 4,
-        }}>[ NAME ]</div>
+        }}>{(m.name && m.name.trim()) || '[ NAME ]'}</div>
         <div style={{ fontSize: 13, color: 'var(--en-fg-1)', marginBottom: 14 }}>{m.role}</div>
         <p style={{ margin: 0, fontSize: 13, color: 'var(--en-fg-2)', lineHeight: 1.6 }}>{m.scope}</p>
       </div>

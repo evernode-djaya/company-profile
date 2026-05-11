@@ -5,11 +5,26 @@
   },
   "nav": {
     "items": [
-      { "id": "services", "label": "Layanan" },
-      { "id": "work", "label": "Karya" },
-      { "id": "process", "label": "Proses" },
-      { "id": "team", "label": "Tim" },
-      { "id": "clients", "label": "Klien" }
+      {
+        "id": "services",
+        "label": "Layanan"
+      },
+      {
+        "id": "work",
+        "label": "Karya"
+      },
+      {
+        "id": "process",
+        "label": "Proses"
+      },
+      {
+        "id": "team",
+        "label": "Tim"
+      },
+      {
+        "id": "clients",
+        "label": "Klien"
+      }
     ],
     "cta": "Mulai proyek"
   },
@@ -22,9 +37,21 @@
     "primary": "Lihat karya kami",
     "secondary": "Apa yang kami kerjakan",
     "stats": [
-      { "k": "10", "suf": "+", "l": "Sistem dirilis" },
-      { "k": "1", "suf": "thn", "l": "Tahun bertumbuh" },
-      { "k": "3", "suf": "", "l": "Insinyur, senior saja" }
+      {
+        "k": "10",
+        "suf": "+",
+        "l": "Sistem dirilis"
+      },
+      {
+        "k": "1",
+        "suf": "yr",
+        "l": "Tahun bertumbuh"
+      },
+      {
+        "k": "3",
+        "suf": "",
+        "l": "Insinyur, senior saja"
+      }
     ]
   },
   "marquee": [
@@ -49,26 +76,38 @@
         "t": "Pengembangan Perangkat Lunak Kustom",
         "c": "BUILD",
         "d": "Pengembangan dari nol, modernisasi sistem lama, dan rollout white-glove. Kami rilis, latih tim Anda, dan bertahan untuk jangka panjang.",
-        "tags": ["Web", "Mobile", "Cloud", "Dukungan"],
+        "tags": [
+          "Web",
+          "Mobile",
+          "Cloud",
+          "Dukungan"
+        ],
         "details": [
           "Platform web dan konsol admin",
           "Mobile (iOS · Android · cross-platform)",
           "Sistem backend dan integrasi",
           "Infrastruktur cloud & DevOps"
-        ]
+        ],
+        "icon": ""
       },
       {
         "n": "02",
         "t": "AI & Data Intelligence",
         "c": "AI",
         "d": "Agen kustom, document intelligence, dan analitik di atas data Anda. Model yang kami layani sendiri, bukan yang kami sewa.",
-        "tags": ["Agen", "RAG", "Visi", "Analitik"],
+        "tags": [
+          "Agen",
+          "RAG",
+          "Visi",
+          "Analitik"
+        ],
         "details": [
           "Agen retrieval-augmented di atas korpus privat Anda",
           "Pipeline document intelligence dan OCR",
           "Computer vision dan analitik operasional",
           "Self-hosted model serving dan observability"
-        ]
+        ],
+        "icon": ""
       }
     ]
   },
@@ -81,38 +120,50 @@
       {
         "id": "001",
         "title": "DoScreen",
-        "client": "[KLIEN]",
+        "client": "[CLIENT]",
         "year": "2025",
         "tag": "Kesehatan · Skrining",
         "variant": "analytics",
-        "desc": "[ DESKRIPSI ] — ringkasan singkat produk, apa yang dirilis, siapa penggunanya."
+        "desc": "[ DESKRIPSI ] — ringkasan singkat produk, apa yang dirilis, siapa penggunanya.",
+        "thumbnail": "",
+        "hero": "",
+        "gallery": []
       },
       {
         "id": "002",
         "title": "TrustHRIS",
-        "client": "[KLIEN]",
+        "client": "[CLIENT]",
         "year": "2025",
         "tag": "Sistem Informasi SDM",
         "variant": "schedule",
-        "desc": "[ DESKRIPSI ] — penggajian, absensi, penjadwalan, dan operasional SDM."
+        "desc": "[ DESKRIPSI ] — penggajian, absensi, penjadwalan, dan operasional SDM.",
+        "thumbnail": "",
+        "hero": "",
+        "gallery": []
       },
       {
         "id": "003",
         "title": "TrustMedis HIS",
-        "client": "[KLIEN]",
+        "client": "[CLIENT]",
         "year": "2025",
         "tag": "Sistem Informasi Rumah Sakit",
         "variant": "kanban",
-        "desc": "[ DESKRIPSI ] — alur klinis, EMR, dan operasional untuk rumah sakit."
+        "desc": "[ DESKRIPSI ] — alur klinis, EMR, dan operasional untuk rumah sakit.",
+        "thumbnail": "",
+        "hero": "",
+        "gallery": []
       },
       {
         "id": "004",
         "title": "Mercator",
-        "client": "[KLIEN]",
+        "client": "[CLIENT]",
         "year": "2025",
         "tag": "Geo · Operasi",
         "variant": "map",
-        "desc": "[ DESKRIPSI ] — platform pemetaan dan operasi lapangan."
+        "desc": "[ DESKRIPSI ] — platform pemetaan dan operasi lapangan.",
+        "thumbnail": "",
+        "hero": "",
+        "gallery": []
       },
       {
         "id": "005",
@@ -121,7 +172,10 @@
         "year": "2025",
         "tag": "Perbankan · Onboarding",
         "variant": "archive",
-        "desc": "[ DESKRIPSI ] — onboarding dan document intelligence untuk jaringan BPR."
+        "desc": "[ DESKRIPSI ] — onboarding dan document intelligence untuk jaringan BPR.",
+        "thumbnail": "",
+        "hero": "",
+        "gallery": []
       },
       {
         "id": "006",
@@ -130,7 +184,10 @@
         "year": "2026",
         "tag": "AI · Pengawasan Kesehatan",
         "variant": "fleet",
-        "desc": "[ DESKRIPSI ] — skrining berbasis AI dan manajemen kasus tuberkulosis."
+        "desc": "[ DESKRIPSI ] — skrining berbasis AI dan manajemen kasus tuberkulosis.",
+        "thumbnail": "",
+        "hero": "",
+        "gallery": []
       }
     ]
   },
@@ -139,10 +196,26 @@
     "title1": "Dari sketsa ke produksi —",
     "title2": "dalam ritme yang terukur.",
     "steps": [
-      { "n": "01", "t": "Discovery", "d": "Kami menyatu dengan tim Anda selama dua minggu. Memetakan sistem, orang, dan kendalanya." },
-      { "n": "02", "t": "Arsitek", "d": "Prototipe yang berfungsi sebelum satu baris produksi. Keputusan dalam kode, bukan slide." },
-      { "n": "03", "t": "Bangun", "d": "Sprint dua mingguan. Demo setiap Jumat. Roadmap hidup di tempat kode hidup." },
-      { "n": "04", "t": "Operasikan", "d": "Kami tidak menghilang saat peluncuran. SLA, on-call, dan roadmap kuartal berikutnya." }
+      {
+        "n": "01",
+        "t": "Discovery",
+        "d": "Kami menyatu dengan tim Anda selama dua minggu. Memetakan sistem, orang, dan kendalanya."
+      },
+      {
+        "n": "02",
+        "t": "Arsitek",
+        "d": "Prototipe yang berfungsi sebelum satu baris produksi. Keputusan dalam kode, bukan slide."
+      },
+      {
+        "n": "03",
+        "t": "Bangun",
+        "d": "Sprint dua mingguan. Demo setiap Jumat. Roadmap hidup di tempat kode hidup."
+      },
+      {
+        "n": "04",
+        "t": "Operasikan",
+        "d": "Kami tidak menghilang saat peluncuran. SLA, on-call, dan roadmap kuartal berikutnya."
+      }
     ]
   },
   "manifesto": {
@@ -153,9 +226,18 @@
     "em2": "ketahui",
     "body3": ". Sebagian besar perusahaan hidup dengan jurang itu. Kami menutupnya.",
     "pillars": [
-      { "t": "Bangun untuk operator", "d": "Perangkat lunak dinilai di terminal shift malam, bukan di slide ruang rapat." },
-      { "t": "Rilis, lalu pertajam", "d": "Sistem nyata di produksi mengalahkan enam bulan mockup, setiap saat." },
-      { "t": "Tetap bertanggung jawab", "d": "Kami tunjuk pemilik. Kami angkat telepon. Kami mengukur apa yang kami janjikan." }
+      {
+        "t": "Bangun untuk operator",
+        "d": "Perangkat lunak dinilai di terminal shift malam, bukan di slide ruang rapat."
+      },
+      {
+        "t": "Rilis, lalu pertajam",
+        "d": "Sistem nyata di produksi mengalahkan enam bulan mockup, setiap saat."
+      },
+      {
+        "t": "Tetap bertanggung jawab",
+        "d": "Kami tunjuk pemilik. Kami angkat telepon. Kami mengukur apa yang kami janjikan."
+      }
     ]
   },
   "team": {
@@ -166,22 +248,28 @@
     "coming": "// nama asli akan ditambahkan",
     "members": [
       {
+        "name": "Kevin Ashil",
         "role": "Project Manager / Analis",
         "initials": "PM",
         "n": "01",
-        "scope": "Discovery, scoping, alignment pemangku kepentingan, roadmap & delivery."
+        "scope": "Discovery, scoping, alignment pemangku kepentingan, roadmap & delivery.",
+        "photo": ""
       },
       {
+        "name": "Riandy Hasan",
         "role": "Software Engineer",
         "initials": "SE",
         "n": "02",
-        "scope": "Sistem web, mobile, dan backend. Cloud dan DevOps. Pemilik produksi."
+        "scope": "Sistem web, mobile, dan backend. Cloud dan DevOps. Pemilik produksi.",
+        "photo": ""
       },
       {
+        "name": "M Risqi Firdaus",
         "role": "AI Engineer",
         "initials": "AI",
         "n": "03",
-        "scope": "Agen, RAG, document intelligence, visi, dan model serving."
+        "scope": "Agen, RAG, document intelligence, visi, dan model serving.",
+        "photo": "/uploads/team/risqi.6971c14bd67c33ccf88a.png"
       }
     ]
   },
@@ -191,11 +279,26 @@
     "title1": "Dua klien jangkar.",
     "title2": "Daftar operator di belakangnya.",
     "featured": [
-      { "name": "FK UNAIR", "sub": "Fakultas Kedokteran, Universitas Airlangga", "tag": "Pendidikan · Riset" },
-      { "name": "FK UMY", "sub": "Fakultas Kedokteran, Universitas Muhammadiyah Yogyakarta", "tag": "Pendidikan · Riset" }
+      {
+        "name": "BANK JAKARTA",
+        "sub": "Fakultas Kedokteran, Universitas Airlangga",
+        "tag": "Pendidikan · Riset",
+        "logo": ""
+      },
+      {
+        "name": "FK UMY",
+        "sub": "Fakultas Kedokteran, Universitas Muhammadiyah Yogyakarta",
+        "tag": "Pendidikan · Riset",
+        "logo": ""
+      }
     ],
     "othersLabel": "Juga bekerja dengan",
-    "others": ["US TBGuard", "ITB", "Bank DKI", "IHC"]
+    "others": [
+      "US TBGuard",
+      "ITB",
+      "Bank DKI",
+      "IHC"
+    ]
   },
   "cta": {
     "eyebrow": "07 / Mulai",
@@ -207,9 +310,30 @@
   "footer": {
     "blurb": "EverNode adalah brand dari PT Djaya Abadi Selamanya — studio perangkat lunak yang merancang sistem operasional untuk perusahaan Indonesia dan sekitarnya.",
     "cols": [
-      { "h": "Praktik", "l": ["Perangkat Lunak Kustom", "AI & Data", "Implementasi"] },
-      { "h": "Studio", "l": ["Tentang", "Tim", "Kontak"] },
-      { "h": "Kontak", "l": ["kevinashil@outlook.com", "Jakarta · Indonesia", "evernode.id"] }
+      {
+        "h": "Praktik",
+        "l": [
+          "Perangkat Lunak Kustom",
+          "AI & Data",
+          "Implementasi"
+        ]
+      },
+      {
+        "h": "Studio",
+        "l": [
+          "Tentang",
+          "Tim",
+          "Kontak"
+        ]
+      },
+      {
+        "h": "Kontak",
+        "l": [
+          "kevinashil@outlook.com",
+          "Jakarta · Indonesia",
+          "evernode.id"
+        ]
+      }
     ],
     "copy1": "© 2026 PT DJAYA ABADI SELAMANYA · HAK CIPTA DILINDUNGI",
     "copy2": "EVERNODE · BRAND DARI PT DJAYA ABADI SELAMANYA"
