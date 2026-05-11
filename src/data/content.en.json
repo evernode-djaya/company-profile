@@ -243,7 +243,8 @@
         "role": "AI Engineer",
         "initials": "AI",
         "n": "03",
-        "scope": "Agents, RAG, document intelligence, vision and model serving."
+        "scope": "Agents, RAG, document intelligence, vision and model serving.",
+        "photo": "/uploads/team/risqi.6971c14bd67c33ccf88a.png"
       }
     ]
   },
@@ -254,9 +255,9 @@
     "title2": "A roster of operators behind them.",
     "featured": [
       {
-        "name": "FK UNAIR",
-        "sub": "Faculty of Medicine, Universitas Airlangga",
-        "tag": "Education · Research"
+        "name": "BANK JAKARTA",
+        "sub": "Bank Jakarta formerly known as Bank DKI",
+        "tag": "Finance · Banking"
       },
       {
         "name": "FK UMY",
@@ -268,7 +269,6 @@
     "others": [
       "US TBGuard",
       "ITB",
-      "Bank DKI",
       "IHC"
     ]
   },
