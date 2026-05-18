@@ -29,7 +29,7 @@
     "cta": "Mulai proyek"
   },
   "hero": {
-    "eyebrow": "EVERNODE / SEJAK 2025 · JAKARTA",
+    "eyebrow": "EVERNODE / SEJAK 2024 · JAKARTA",
     "title1": "Sistem terancang",
     "title2": "untuk para operator",
     "title3": "yang membangun masa depan.",
@@ -115,7 +115,7 @@
     "eyebrow": "02 / Karya",
     "title1": "Sistem terpilih",
     "title2": "dirilis 2024 — 2026.",
-    "note": "// deskripsi proyek menyusul — slot placeholder di bawah",
+    "note": "",
     "projects": [
       {
         "id": "001",
