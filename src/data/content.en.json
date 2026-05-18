@@ -48,9 +48,9 @@
         "l": "Year compounding"
       },
       {
-        "k": "3",
+        "k": "4",
         "suf": "",
-        "l": "Engineers, senior only"
+        "l": "Engineers, Advance"
       }
     ]
   },
@@ -68,7 +68,7 @@
   "services": {
     "eyebrow": "01 / Services",
     "version": "v.2026.05",
-    "title1": "Two practices.",
+    "title1": "Two service",
     "title2": "One operating system for your operations.",
     "items": [
       {
