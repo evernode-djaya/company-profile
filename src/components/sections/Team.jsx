@@ -24,7 +24,7 @@ export default function Team() {
           }
         />
 
-        <Carousel desktopGrid="repeat(3, 1fr)" gap={16} slideWidth="82%">
+        <Carousel desktopGrid="repeat(4, 1fr)" gap={16} slideWidth="82%">
           {t.team.members.map((m, i) => <TeamCard key={i} m={m} />)}
         </Carousel>
       </div>
