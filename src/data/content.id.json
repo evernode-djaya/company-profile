@@ -120,13 +120,13 @@
       {
         "id": "001",
         "title": "DoScreen",
-        "client": "[CLIENT]",
+        "client": "FK UMY",
         "year": "2025",
         "tag": "Kesehatan · Skrining",
         "variant": "analytics",
-        "desc": "[ DESKRIPSI ] — ringkasan singkat produk, apa yang dirilis, siapa penggunanya.",
-        "thumbnail": "",
-        "hero": "",
+        "desc": "Software monitoring pasien, tersedia fitur penghitung nutrisi dengan AI, deteksi dini dan monitoring kesehatan.",
+        "thumbnail": "/uploads/work/doscreen-project.png",
+        "hero": "/uploads/work/doscreen-project-2.png",
         "gallery": []
       },
       {
@@ -136,9 +136,9 @@
         "year": "2025",
         "tag": "Sistem Informasi SDM",
         "variant": "schedule",
-        "desc": "[ DESKRIPSI ] — penggajian, absensi, penjadwalan, dan operasional SDM.",
-        "thumbnail": "",
-        "hero": "",
+        "desc": "Sistem HRIS rumah sakit mencangkup absensi, penjadwalan, dan operasional SDM.",
+        "thumbnail": "/uploads/work/trusthris-project-4.png",
+        "hero": "/uploads/work/trusthris-project-5.png",
         "gallery": []
       },
       {
@@ -148,20 +148,20 @@
         "year": "2025",
         "tag": "Sistem Informasi Rumah Sakit",
         "variant": "kanban",
-        "desc": "[ DESKRIPSI ] — alur klinis, EMR, dan operasional untuk rumah sakit.",
-        "thumbnail": "",
+        "desc": "Sistem informasi alur klinis, EMR, dan operasional untuk rumah sakit.",
+        "thumbnail": "/uploads/work/trustmedis-his-v2-2.png",
         "hero": "",
         "gallery": []
       },
       {
         "id": "004",
         "title": "Mercator",
-        "client": "[CLIENT]",
+        "client": "IPB",
         "year": "2025",
         "tag": "Geo · Operasi",
         "variant": "map",
-        "desc": "[ DESKRIPSI ] — platform pemetaan dan operasi lapangan.",
-        "thumbnail": "",
+        "desc": "Platform pemetaan dan operasi lapangan untuk kalkulasi mangrove dan carbon counting.",
+        "thumbnail": "/uploads/work/mercator-project.png.jpg",
         "hero": "",
         "gallery": []
       },
@@ -172,8 +172,8 @@
         "year": "2025",
         "tag": "Perbankan · Onboarding",
         "variant": "archive",
-        "desc": "[ DESKRIPSI ] — onboarding dan document intelligence untuk jaringan BPR.",
-        "thumbnail": "",
+        "desc": "Sistem onboarding dan document intelligence untuk jaringan BPR.",
+        "thumbnail": "/uploads/work/bpr-mobile-dki-jakon-project.png",
         "hero": "",
         "gallery": []
       },
@@ -182,11 +182,11 @@
         "title": "TBGuard",
         "client": "US TBGuard",
         "year": "2026",
-        "tag": "AI · Pengawasan Kesehatan",
+        "tag": "Sistem informasi · Pengawasan Kesehatan",
         "variant": "fleet",
-        "desc": "[ DESKRIPSI ] — skrining berbasis AI dan manajemen kasus tuberkulosis.",
-        "thumbnail": "",
-        "hero": "",
+        "desc": " Sistem manajemen dan informasi kasus tuberkulosis.",
+        "thumbnail": "/uploads/work/screenshot-2026-05-18-224001.png",
+        "hero": "/uploads/work/screenshot-2026-05-18-224001-2.png",
         "gallery": []
       }
     ]
@@ -270,6 +270,14 @@
         "n": "03",
         "scope": "Agen, RAG, document intelligence, visi, dan model serving.",
         "photo": "/uploads/team/risqi.6971c14bd67c33ccf88a_1x1.png"
+      },
+      {
+        "name": "Hafidz Nur R. G.",
+        "role": "Product Engineer",
+        "initials": "PE",
+        "n": "04",
+        "photo": "",
+        "scope": "Product development, Software Engineering"
       }
     ]
   },

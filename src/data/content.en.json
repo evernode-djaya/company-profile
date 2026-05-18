@@ -31,9 +31,9 @@
   "hero": {
     "eyebrow": "EVERNODE / EST. 2025 · JAKARTA",
     "title1": "Engineered systems",
-    "title2": "for the operators",
+    "title2": "for the leaders",
     "title3": "building tomorrow.",
-    "body": "EverNode is a software studio embedding intelligence into enterprise operations — custom software and AI agents, with the data infrastructure that connects them.",
+    "body": "EverNode is a software studio embedding intelligence into enterprise operations, custom software and AI agents, with the data infrastructure that connects them.",
     "primary": "See our work",
     "secondary": "What we do",
     "stats": [
@@ -115,18 +115,18 @@
     "eyebrow": "02 / Work",
     "title1": "Selected systems",
     "title2": "shipped 2024 — 2026.",
-    "note": "// project descriptions to be filled — placeholder slots below",
+    "note": "",
     "projects": [
       {
         "id": "001",
         "title": "DoScreen",
-        "client": "[CLIENT]",
+        "client": "FK UMY",
         "year": "2025",
         "tag": "Health · Screening",
         "variant": "analytics",
-        "desc": "[ DESCRIPTION ] — short product summary, what it ships, who uses it.",
-        "thumbnail": "",
-        "hero": "",
+        "desc": "Platform for patient monitoring, including nutrion monitoring using ai, early detection and screening.",
+        "thumbnail": "/uploads/work/doscreen-project.png",
+        "hero": "/uploads/work/doscreen-project-2.png",
         "gallery": []
       },
       {
@@ -136,9 +136,9 @@
         "year": "2025",
         "tag": "HR Information System",
         "variant": "schedule",
-        "desc": "[ DESCRIPTION ] — payroll, attendance, scheduling and people ops.",
-        "thumbnail": "",
-        "hero": "",
+        "desc": "Hospitl HRIS system for payroll, attendance, scheduling and people ops.",
+        "thumbnail": "/uploads/work/trusthris-project-4.png",
+        "hero": "/uploads/work/trusthris-project-5.png",
         "gallery": []
       },
       {
@@ -148,20 +148,20 @@
         "year": "2025",
         "tag": "Hospital Information System",
         "variant": "kanban",
-        "desc": "[ DESCRIPTION ] — clinical workflow, EMR and operations for hospitals.",
-        "thumbnail": "",
+        "desc": "Hospital Information System for clinical workflow, EMR and operations for hospitals.",
+        "thumbnail": "/uploads/work/trustmedis-his-v2-2.png",
         "hero": "",
         "gallery": []
       },
       {
         "id": "004",
         "title": "Mercator",
-        "client": "[CLIENT]",
+        "client": "IPB",
         "year": "2025",
         "tag": "Geo · Operations",
         "variant": "map",
-        "desc": "[ DESCRIPTION ] — mapping and field operations platform.",
-        "thumbnail": "",
+        "desc": "Mangrove and carbon calcuation mapping and field operations platform.",
+        "thumbnail": "/uploads/work/mercator-project.png.jpg",
         "hero": "",
         "gallery": []
       },
@@ -172,8 +172,8 @@
         "year": "2025",
         "tag": "Banking · Onboarding",
         "variant": "archive",
-        "desc": "[ DESCRIPTION ] — onboarding and document intelligence for BPR network.",
-        "thumbnail": "",
+        "desc": "Banking mobile onboarding and document intelligence for BPR network.",
+        "thumbnail": "/uploads/work/bpr-mobile-dki-jakon-project.png",
         "hero": "",
         "gallery": []
       },
@@ -184,16 +184,16 @@
         "year": "2026",
         "tag": "AI · Health Surveillance",
         "variant": "fleet",
-        "desc": "[ DESCRIPTION ] — AI-assisted screening and case management for tuberculosis.",
-        "thumbnail": "",
-        "hero": "",
+        "desc": "Case management and information system for tuberculosis.",
+        "thumbnail": "/uploads/work/screenshot-2026-05-18-224001.png",
+        "hero": "/uploads/work/screenshot-2026-05-18-224001-2.png",
         "gallery": []
       }
     ]
   },
   "process": {
     "eyebrow": "03 / Process",
-    "title1": "From sketch to production —",
+    "title1": "From sketch to production ",
     "title2": "in measured beats.",
     "steps": [
       {
@@ -270,6 +270,14 @@
         "n": "03",
         "scope": "Agents, RAG, document intelligence, vision and model serving.",
         "photo": "/uploads/team/risqi.6971c14bd67c33ccf88a_1x1.png"
+      },
+      {
+        "name": "Hafidz Nur R. G.",
+        "role": "Product Engineer",
+        "initials": "PE",
+        "n": "04",
+        "photo": "",
+        "scope": "Product development, Software Engineering"
       }
     ]
   },

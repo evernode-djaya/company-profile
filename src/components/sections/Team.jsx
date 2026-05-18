@@ -77,7 +77,7 @@ function TeamCard({ m }) {
                 <span className="en-mono" style={{
                   position: 'absolute', bottom: 8, left: 8,
                   fontSize: 9, color: 'var(--en-fg-3)',
-                }}>// drop photo</span>
+                }}></span>
                 <span className="en-mono" style={{
                   position: 'absolute', top: 8, right: 8,
                   fontSize: 9, color: 'var(--en-fg-3)',
