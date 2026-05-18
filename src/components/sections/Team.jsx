@@ -81,7 +81,7 @@ function TeamCard({ m }) {
                 <span className="en-mono" style={{
                   position: 'absolute', top: 8, right: 8,
                   fontSize: 9, color: 'var(--en-fg-3)',
-                }}>NAME ─────</span>
+                }}></span>
               </>
             )}
         </div>
